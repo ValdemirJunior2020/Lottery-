@@ -20,3 +20,55 @@ body {
   width: 100%;
   color: white;
 }
+h1 {
+  font-size: 36px; /* Adjust the size as needed */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold;
+}
+
+button {
+  font-size: 18px; /* Adjust the size as needed */
+  font-weight: bold;
+}
+body {
+  font-size: 18px; /* Increase this value as needed */
+  font-weight: bold;
+  font-family: Arial, sans-serif; /* Add a font family for a clean look */
+  color: white; /* Ensure text is visible against your background */
+}
+
+label, select, button, h1, h2 {
+  font-size: inherit; /* Inherit the font size from the body */
+  font-weight: inherit; /* Inherit the bold weight */
+}
+
+select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-size: 36px; /* Larger size for the main heading */
+}
+
+h2 {
+  font-size: 24px; /* Slightly smaller size for secondary headings */
+}
