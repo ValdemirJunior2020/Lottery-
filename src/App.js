@@ -1,3 +1,5 @@
+import './App.css'; // Correct path
+
 import React, { useState } from 'react';
 import {
   generateFloridaMegaMillionsNumbers,
@@ -80,7 +82,17 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div
+      className="app"
+      style={{
+        backgroundImage: "url('/loto.png'), radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%)",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        height: "100vh",
+        width: "100vw",
+      }}
+    >
       <h1>Lottery Number Generator</h1>
       <div>
         <label htmlFor="state">Select State: </label>
